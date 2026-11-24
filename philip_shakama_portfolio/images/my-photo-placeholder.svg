@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Philip Shakama">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173C45"/><stop offset="1" stop-color="#081E2B"/></linearGradient></defs>
+<rect width="900" height="520" rx="28" fill="url(#g)"/>
+<circle cx="730" cy="110" r="170" fill="#E8B86D" opacity=".14"/><circle cx="120" cy="470" r="220" fill="#E8B86D" opacity=".10"/>
+<text x="450" y="245" font-size="112" text-anchor="middle" fill="#E8B86D" font-family="Arial">PS</text>
+<text x="450" y="350" font-size="44" font-weight="700" text-anchor="middle" fill="#fff" font-family="Arial">Philip Shakama</text>
+<text x="450" y="402" font-size="23" text-anchor="middle" fill="#D8E5E2" font-family="Arial">Replace this artwork with your own portrait</text>
+</svg>

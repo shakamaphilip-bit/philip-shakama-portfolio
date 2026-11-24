@@ -1,0 +1,16 @@
+ICS 2216 LAB 2 — REFLECTION
+Student: Philip Shakama
+Programme: Bachelor of Science in Applied Biology
+Registration number: SCB225-0207/2025
+
+1. When someone enters my website address, the phone browser acts as the client and requests the website. DNS translates the domain name into the server's IP address. The browser then establishes an HTTPS connection, which encrypts data exchanged with the server. The server returns the website files, and the browser interprets the HTML, CSS and images to display the pages. The user can then follow links to request other pages.
+
+2. A static website serves files whose content is prepared in advance, so visitors generally see the same page until its files are edited. A dynamic website can use server-side code and a database to generate or update content in response to data or user actions. In this portfolio, the five HTML pages form the static website. For example, a dynamic Movies page could retrieve movie records from the database and display the latest list automatically after a record is changed.
+
+3. A separate CSS file keeps presentation rules in one place rather than repeating them in every HTML page. The same stylesheet creates a consistent visual identity across the five pages. If I change the colours, spacing or typography in style.css, the change can apply throughout the site. This also makes the HTML easier to read and maintain.
+
+4. I used semantic HTML, descriptive image alternative text, clear navigation labels, visible focus styles and a responsive layout. Flexible grids and a mobile breakpoint allow content to rearrange on smaller screens. Readable contrast and labelled form fields make the pages easier to use. These choices support visitors using different devices and assistive technologies.
+
+5. The profile_id field in the profile table is the primary key because it uniquely identifies each profile record. In the skill, hobby, movie and enquiry tables, profile_id is a foreign key that refers back to profile.profile_id. Primary keys prevent records from being confused, while foreign keys connect related records and help maintain referential integrity. Each profile can therefore have multiple skills, hobbies, movies and enquiries.
+
+6. I have not published private contact information such as a home address, personal phone number or identification number. I have also left social media and email links blank until I choose the exact public accounts to share. This reduces unnecessary exposure of personal data. The contact form is currently a demonstration and does not transmit or store messages; it needs the instructor-provided backend endpoint before it can be used for real submissions.
